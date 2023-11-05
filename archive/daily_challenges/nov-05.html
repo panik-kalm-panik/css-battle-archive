@@ -1,0 +1,97 @@
+<div id="a">
+    <div id="b"></div>
+    <div id="c"></div>
+</div>
+<div id="d">
+    <div id="e">
+        <div id="f"></div>
+    </div>
+    <div id="g">
+        <div id="h"></div>
+    </div>
+</div>
+
+<style>
+    body {
+        background: #9C57A8;
+        display: flex
+    }
+
+    #a {
+        width: 200px;
+        height: 200px;
+        background: #651E57;
+        border-radius: 32%;
+        margin: auto
+    }
+
+    #b,
+    #c {
+        position: absolute;
+        background: #9C57A8;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%)
+    }
+
+    #b {
+        width: 200px;
+        height: 30px
+    }
+
+    #c {
+        width: 30px;
+        height: 200px
+    }
+
+    #d {
+        width: 140px;
+        height: 140px;
+        background: #9C57A8;
+        border-radius: 25%;
+        overflow: hidden;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    #e,
+    #g {
+        width: 140px;
+        height: 140px;
+        position: absolute;
+        display: flex
+    }
+
+    #e {
+        border-bottom-left-radius: 46%;
+        background: #651E57;
+        top: -39%;
+        left: 39%
+    }
+
+    #f,
+    #h {
+        width: 80px;
+        height: 80px;
+        margin: auto
+    }
+
+    #f {
+        background: #9C57A8;
+        border-bottom-left-radius: 46%
+    }
+
+    #g {
+        border-top-right-radius: 46%;
+        background: #651E57;
+        top: 39%;
+        left: -39%
+    }
+
+    #h {
+        background: #9C57A8;
+        border-top-right-radius: 46%
+    }
+</style>

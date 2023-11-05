@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+            <!--? [CSS REFERENCES] -->
+            <link rel="stylesheet" href="css/general.css">
+            <link rel="stylesheet" href="css/sidebar.css">
+            <link rel="stylesheet" href="css/selected.css">
+
+            <title>CSS Battle Archive</title>
+        </head>
+        <body>
+            <div id="sidebar">
+                <p>Choose a CSS to see</p>
+                <div id="daily">
+                    <p>Daily challenges</p>
+                    <div id="daily_list">
+                    </div>
+                </div>
+                <div id="battles">
+                    <p>Battles</p>
+                    <div id="battles_list">
+                    </div>
+                </div>
+            </div>
+
+            <div id="selected_css">
+                <p id="css_name">CSS not selected</p>
+                <div id="holder">
+                    <div id="code_holder">
+                        <pre><code id="code_preview">
+                        </code></pre>
+                    </div>
+                    <div id="preview">
+                        <iframe src="" frameborder="0" id="css_preview"></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <!--? [JS REFERENCES] -->
+            <script src="./js/daily.js"></script>
+            <script src="./js/battle.js"></script>
+            <script src="./js/main.js"></script>
+        </body>
+    </html>

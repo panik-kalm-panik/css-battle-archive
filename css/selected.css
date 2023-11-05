@@ -1,0 +1,44 @@
+#selected_css {
+    width: 75%;
+}
+
+#selected_css p {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    padding-bottom: 0px;
+    margin: 0px;
+    color: white;
+}
+
+#holder {
+    margin-top: 10px;
+    display: none;
+}
+
+#code_holder {
+    background-color: #1e1e1e;
+    min-width: 500px;
+    max-height: 900px;
+    overflow-y: scroll;
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    margin-right: 10px;
+    border-radius: 10px;
+    padding: 0px;
+}
+
+#preview {
+    background-color: #1e1e1e;
+    width: 800px;
+    height: 400px;
+    height: fit-content;
+    border-radius: 10px;
+    color: white;
+}
+
+iframe {
+    width: 800px;
+    height: 400px;
+}

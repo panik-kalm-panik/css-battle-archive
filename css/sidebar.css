@@ -1,0 +1,128 @@
+#sidebar {
+    width: 25%;
+}
+
+#sidebar p {
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    padding-bottom: 0px;
+    margin: 0px;
+    color: white;
+}
+
+#daily {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    height: 400px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+#daily p {
+    text-align: left;
+    font-size: 14px;
+    padding: 10px;
+    margin: 0px;
+    color: #939393;
+    background-color: #1e1e1e;
+}
+
+#daily_list {
+    padding: 10px;
+    height: 354px;
+    overflow-y: scroll;
+}
+
+#daily_list div {
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #2e2e2e;
+    display: flex;
+    overflow: hidden;
+}
+
+#daily_list p {
+    text-align: center;
+}
+
+#daily_list div:hover {
+    box-shadow: inset 0 0 0 2px #8c8c8c;
+}
+
+#daily_list div p {
+    height: fit-content;
+    padding: 0px;
+    margin: auto 0px;
+    margin-left: 10px;
+    background-color: #2e2e2e;
+}
+
+#daily_list div p:nth-child(2) {
+    height: fit-content;
+    padding: 0px;
+    margin: auto 0px;
+    margin-left: auto;
+    margin-right: 10px;
+    background-color: #2e2e2e;
+}
+
+#battles {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    height: 400px;
+    margin: 10px;
+    overflow: hidden;
+}
+
+#battles p {
+    text-align: left;
+    font-size: 14px;
+    padding: 10px;
+    margin: 0px;
+    color: #939393;
+    background-color: #1e1e1e;
+}
+
+#battles_list {
+    padding: 10px;
+    height: 354px;
+    overflow-y: scroll;
+}
+
+#battles_list div {
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #2e2e2e;
+    display: flex;
+    overflow: hidden;
+}
+
+#battles_list p {
+    text-align: center;
+}
+
+#battles_list div p {
+    height: fit-content;
+    padding: 0px;
+    margin: auto 0px;
+    margin-left: 10px;
+    background-color: #2e2e2e;
+}
+
+#battles_list div p:nth-child(2) {
+    height: fit-content;
+    padding: 0px;
+    margin: auto 0px;
+    margin-left: auto;
+    margin-right: 10px;
+    background-color: #2e2e2e;
+}
+
+#battles_list div:hover {
+    box-shadow: inset 0 0 0 2px #8c8c8c;
+}
