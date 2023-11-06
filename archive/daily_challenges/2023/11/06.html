@@ -1,0 +1,107 @@
+<div id="a">
+    <div id="b">
+        <div id="c"></div>
+    </div>
+    <div id="d">
+        <div id="e"></div>
+    </div>
+    <div id="f">
+        <div id="g"></div>
+    </div>
+    <div id="h">
+        <div id="i"></div>
+    </div>
+</div>
+<div id="j">
+    <div id="k">
+        <div id="l"></div>
+    </div>
+</div>
+
+<style>
+    body {
+        background: #302562;
+        display: flex;
+    }
+
+    #a {
+        width: 220px;
+        height: 220px;
+        margin: auto;
+    }
+
+    #b,
+    #d,
+    #f,
+    #h {
+        width: 100px;
+        height: 100px;
+        background: #0098D1;
+        border-radius: 50%;
+        position: absolute;
+        display: flex;
+    }
+
+    #b {
+        left: 50%;
+        transform: translate(-50%);
+        display: flex;
+    }
+
+    #c,
+    #e,
+    #g,
+    #i {
+        width: 60px;
+        height: 60px;
+        background: #302562;
+        border-radius: 50%;
+        margin: auto;
+    }
+
+    #d {
+        top: 50%;
+        transform: translate(0%, -50%);
+    }
+
+    #f {
+        top: 50%;
+        transform: translate(120%, -50%);
+    }
+
+    #h {
+        left: 50%;
+        transform: translate(-50%, 120%);
+        display: flex;
+    }
+
+    #j {
+        width: 120px;
+        height: 120px;
+        background: #302562;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+    }
+
+    #k {
+        width: 100px;
+        height: 100px;
+        background: #0098D1;
+        border-radius: 50%;
+        margin: auto;
+    }
+
+    #l {
+        width: 60px;
+        height: 60px;
+        background: #302562;
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+</style>

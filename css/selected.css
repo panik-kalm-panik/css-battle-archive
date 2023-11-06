@@ -19,7 +19,7 @@
 #code_holder {
     background-color: #1e1e1e;
     min-width: 500px;
-    max-height: 900px;
+    max-height: 810px;
     overflow-y: scroll;
     width: fit-content;
     height: fit-content;
@@ -27,18 +27,19 @@
     margin-right: 10px;
     border-radius: 10px;
     padding: 0px;
+    user-select: text;
 }
 
 #preview {
     background-color: #1e1e1e;
-    width: 800px;
-    height: 400px;
-    height: fit-content;
+    width: 400px;
+    height: 300px;
     border-radius: 10px;
     color: white;
 }
 
 iframe {
-    width: 800px;
-    height: 400px;
+    width: 400px;
+    height: 300px;
+    margin: 0px;
 }
