@@ -1,0 +1,35 @@
+<div class="l"></div>
+<div class="l"></div>
+<div class="r"></div>
+<div class="r"></div>
+
+<style>
+    body {
+        background: #9B3E41;
+        margin: 65px 30px;
+        display: flex
+    }
+
+    .r,
+    .l {
+        border: calc(170px/2)solid transparent
+    }
+
+    .r {
+        border-right: 0;
+        border-left: 85px solid#FFFEF2
+    }
+
+    .l {
+        border-left: 0;
+        border-right: 85px solid#FFFEF2
+    }
+
+    div:first-of-type {
+        border-right: 85px solid#FFDC57
+    }
+
+    div:nth-of-type(4) {
+        border-left: 85px solid#FFDC57
+    }
+</style>
