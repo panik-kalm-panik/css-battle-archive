@@ -1,0 +1,75 @@
+<div a></div>
+<div b>
+    <div c>
+        <p></p>
+        <p></p>
+    </div>
+    <div d>
+        <p></p>
+        <p></p>
+    </div>
+    <div e></div>
+    <div f></div>
+</div>
+
+<style>
+    body {
+        background: #3A345E;
+        display: flex;
+        overflow: hidden;
+    }
+
+    div {
+        width: 231;
+        height: 231;
+        margin: auto;
+        margin-top: 52;
+        margin-left: 72
+    }
+
+    div[a] {
+        background:
+        radial-gradient(circle, rgba(224, 222, 240, 1)
+        47%, rgba(0, 152, 209, 0)48%);
+        background-size: 60px 60px
+    }
+
+    div[b] {
+        position: absolute;
+        display: flex;
+        justify-content: space-between
+    }
+
+    div[c],
+    div[d] {
+        justify-content: space-between;
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        margin: 0
+    }
+
+    div[e],
+    div[f] {
+        background: #E0DEF0;
+        position: absolute;
+        width: 40
+    }
+
+    div[e] {
+        left: -2;
+        top: 160
+    }
+
+    div[f] {
+        left: 58;
+        top: 100
+    }
+
+    p {
+        width: 50;
+        height: 50;
+        background: #3A345E;
+        margin: 0
+    }
+</style>
