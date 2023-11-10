@@ -1,0 +1,58 @@
+<div a>
+    <p></p>
+    <p c></p>
+</div>
+<div b>
+    <p></p>
+    <p c></p>
+</div>
+<div d></div>
+
+<style>
+    body {
+        display: flex;
+        flex-direction: column;
+        margin: 80 50;
+        background: #191210
+    }
+
+    div {
+        width: 300px;
+        height: 70px;
+        display: flex;
+        flex-direction: row-reverse;
+        overflow: hidden
+    }
+
+    div[b] {
+        transform: rotate(180deg)
+    }
+
+    div[d] {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        background: transparent;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        border: 20px solid#ECA03D
+    }
+
+    p {
+        width: 60px;
+        height: 60px;
+        margin-top: auto;
+        margin-bottom: -50;
+        border-radius: 50% 50% 0 0;
+        border: 20px solid#ECA03D
+    }
+
+    p[c] {
+        width: 50px;
+        height: 50px;
+        border: 25px solid#191210;
+        background: #84271C
+    }
+</style>

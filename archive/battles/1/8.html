@@ -1,0 +1,70 @@
+<div a>
+    <p a></p>
+    <p></p>
+    <p a></p>
+    <p></p>
+    <p a></p>
+    <p></p>
+    <p a></p>
+</div>
+<div b>
+    <p a></p>
+    <p></p>
+    <p a></p>
+    <p></p>
+    <p a></p>
+    <p></p>
+    <p a></p>
+</div>
+<div c></div>
+<div d></div>
+
+<style>
+    body {
+        display: flex;
+        flex-direction: column;
+        margin: 50 130;
+        background: #6592CF;
+        overflow: hidden;
+    }
+
+    div {
+        width: 140;
+        height: 55;
+        display: flex;
+        overflow: hidden;
+        background: #060F55
+    }
+
+    div[a] {
+        background: #6592CF
+    }
+
+    div[b],
+    div[c] {
+        transform: rotate(180deg)
+    }
+
+    p {
+        width: 20;
+        height: 110;
+        margin: 0;
+        border-radius: 10px 10px 0 0;
+        background: #6592CF
+    }
+
+    p[a] {
+        background: #060F55
+    }
+
+    div[c] {
+        height: 90;
+        border-radius: 15rem 15rem 0 0
+    }
+
+    div[d] {
+        height: 100;
+        width: 20;
+        margin: -10 auto
+    }
+</style>

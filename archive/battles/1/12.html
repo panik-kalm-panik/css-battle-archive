@@ -1,0 +1,40 @@
+<p></p>
+<p a></p>
+<p></p>
+<p b></p>
+<p b c></p>
+
+<style>
+  body {
+    margin: 100 70;
+    display: grid;
+    grid-template-columns: 80px 80px 80px;
+    grid-template-rows: 0;
+    background: #F5D6B4;
+  }
+  p {
+    width: 60px;
+    height: 30px;
+    border-top: 0px solid;
+    border-radius: 0 0 10rem 10rem;
+    border: 20px solid #D86F45;
+    border-top: none;
+    margin-top: 50;
+  }
+  p[a] {
+    transform: rotate(180deg);
+    margin: 0;
+  }
+  p[b] {
+    border-radius: 10rem;
+    position: absolute;
+    background: #D86F45;
+    width: 20;
+    height: 20;
+    border: 0;
+    margin-top: 40;
+  }
+  p[c] {
+    right: 70;
+  }
+</style>

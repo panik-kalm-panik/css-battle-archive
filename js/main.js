@@ -32,6 +32,7 @@ function load_battles_table() {
         return
     }
     for (challenge of battle_array) {
+        index = battle_array.indexOf(challenge);
         battles_table.innerHTML += `
             <div onclick ="select_css('battle', ` + index + `)"><p>` + challenge.number + `</p><p>` + challenge.battle + `</p></div>
         `

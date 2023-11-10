@@ -1,0 +1,61 @@
+<div a></div>
+<div b>
+    <p></p>
+</div>
+<div a></div>
+<div c>
+    <p></p>
+</div>
+<div></div>
+<div c>
+    <p></p>
+</div>
+<div d></div>
+
+<style>
+    body {
+        background: #62306D;
+        display: grid;
+        grid-template-columns: 100px 100px 0;
+        margin: 50;
+        overflow: hidden;
+    }
+
+    div,
+    p {
+        width: 100;
+        height: 100;
+        background: #F7EC7D
+    }
+
+    div[a] {
+        background: #62306D
+    }
+
+    div[b],
+    div[c] {
+        border-radius: 5rem 5rem 0 0
+    }
+
+    p {
+        margin: 0;
+        background:
+        radial-gradient(circle, rgba(227, 143, 102, 1)42%,
+        rgba(170, 68, 95, 1)43%,
+        rgba(170, 68, 95, 1)71%,
+        rgba(170, 68, 95, 0)70%)
+    }
+
+    div[b]p {
+        background:
+        radial-gradient(circle, 
+        rgba(170, 68, 95, 1)42%, 
+        rgba(227, 143, 102, 1)43%, 
+        rgba(227, 143, 102, 1)71%, 
+        rgba(227, 143, 102, 0)70%)
+    }
+
+    div[d] {
+        width: 300
+    }
+</style>

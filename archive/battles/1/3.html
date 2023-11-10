@@ -1,0 +1,44 @@
+<div id="a"></div>
+<div id="b">
+    <div id="c">
+        <div id="d"></div>
+    </div>
+</div>
+
+<style>
+    body {
+        margin: 75px 50px;
+        background: #6592CF
+    }
+
+    #a {
+        height: 150px;
+        background: #243D83
+    }
+
+    #b,
+    #c,
+    #d {
+        height: calc(100% - 100px);
+        width: calc(100% - 100px);
+        border-radius: 50%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%)
+    }
+
+    #b {
+        height: 250px;
+        width: 250px;
+        background: #6592CF
+    }
+
+    #c {
+        background: #243D83
+    }
+
+    #d {
+        background: #EEB850
+    }
+</style>

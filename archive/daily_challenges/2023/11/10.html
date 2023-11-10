@@ -1,0 +1,30 @@
+<div></div>
+<div a></div>
+<div b></div>
+<div c></div>
+
+<style>
+  body {
+    display: grid;
+    margin: 50 100;
+    grid-template-columns: 80px 0;
+    grid-template-rows: 80px 0;
+    background: #FBC3E4;
+  }
+  div {
+    width: 80px;
+    height: 80px;
+    border-bottom-right-radius: 100%;
+    border-bottom: 40px solid #8C0052;
+    border-right: 40px solid #8C0052;
+  }
+  div[a] {
+      transform: rotate(90deg);
+  }
+  div[b] {
+      transform: rotate(-90deg);
+  }
+  div[c] {
+      transform: rotate(180deg);
+  }
+</style>
