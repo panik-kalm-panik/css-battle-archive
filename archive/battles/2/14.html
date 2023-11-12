@@ -1,0 +1,34 @@
+<div></div>
+<div a c></div>
+<div a b></div>
+<div b c></div>
+
+<style>
+    body {
+        background: #F2F2B6;
+        display: grid;
+        margin: 85 60;
+        grid-template-columns: 20px 90px 20px 0
+    }
+
+    div {
+        width: 0;
+        height: 0;
+        border-left: 75px solid transparent;
+        border-right: 75px solid transparent;
+        border-top: 130px solid #FF6D00;
+        position: relative
+    }
+
+    div[a] {
+        border-top: 130px solid #FD4602
+    }
+
+    div[b] {
+        transform: rotate(180deg)
+    }
+
+    div[c] {
+        z-index: -1
+    }
+</style>

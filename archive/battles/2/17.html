@@ -1,0 +1,52 @@
+<div>
+    <p></p>
+    <p></p>
+</div>
+<div a>
+    <p></p>
+    <p></p>
+</div>
+
+<style>
+    body {
+        background: #09042A
+    }
+
+    div {
+        width: 180;
+        height: 60;
+        background: #E78481;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50px;
+        display: flex;
+        justify-content: space-between
+    }
+
+    p {
+        margin: 0;
+        width: 60;
+        height: 60;
+        border-radius: 50%;
+        background: #09042A;
+        border: 10px solid#E78481;
+        margin-top: -10;
+        margin-left: -10;
+        margin-right: -10
+    }
+
+    div[a] {
+        width: 166;
+        height: 80;
+        background: none;
+        transform: translate(-50%, -50%)rotate(90deg)
+    }
+
+    div[a] p {
+        background: #F5BB9C;
+        border-color: #09042A;
+        margin-top: 0
+    }
+</style>

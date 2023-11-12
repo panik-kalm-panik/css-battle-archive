@@ -59,4 +59,44 @@ var battle_array = [
         'battle': 'Battle #1 - Pilot Battle',
         'file': './archive/battles/1/12.html'
     },
+    {
+        'number': '#13. Totally Triangle',
+        'battle': 'Battle #2 - Visibility',
+        'file': './archive/battles/2/13.html'
+    },
+    {
+        'number': '#14. Web Maker Logo',
+        'battle': 'Battle #2 - Visibility',
+        'file': './archive/battles/2/14.html'
+    },
+    {
+        'number': '#15. Overlap',
+        'battle': 'Battle #2 - Visibility',
+        'file': './archive/battles/2/15.html'
+    },
+    {
+        'number': '#16. Eye of the Tiger',
+        'battle': 'Battle #2 - Visibility',
+        'file': './archive/battles/2/16.html'
+    },
+    {
+        'number': '#17. Fidget Spinner',
+        'battle': 'Battle #2 - Visibility',
+        'file': './archive/battles/2/17.html'
+    },
+    {
+        'number': '#18. Matrix',
+        'battle': 'Battle #2 - Visibility',
+        'file': './archive/battles/2/18.html'
+    },
+    {
+        'number': '#19. Cube',
+        'battle': 'Battle #3 - Cursor',
+        'file': './archive/battles/3/19.html'
+    },
+    {
+        'number': '#20. Ticket',
+        'battle': 'Battle #3 - Cursor',
+        'file': './archive/battles/3/20.html'
+    },
 ];

@@ -1,0 +1,62 @@
+<p></p>
+<p a></p>
+<div b></div>
+<div></div>
+<div b c></div>
+<div c></div>
+<div d></div>
+<div e></div>
+
+<style>
+    body {
+        background: #62306D;
+        display: flex;
+        margin: 100
+    }
+
+    p {
+        width: 140px;
+        height: 100;
+        background: #F7EC7D;
+        margin: 0
+    }
+
+    p[a] {
+        width: 60px;
+        background: #E38F66
+    }
+
+    div {
+        width: 40;
+        height: 40;
+        background: red;
+        border-radius: 50%;
+        background: #62306D;
+        position: absolute;
+        top: 80;
+        left: 80
+    }
+
+    div[b] {
+        left: 280
+    }
+
+    div[c] {
+        top: 180
+    }
+
+    div[d],
+    div[e] {
+        width: 20;
+        height: 20;
+        left: 230
+    }
+
+    div[d] {
+        top: 90
+    }
+
+    div[e] {
+        top: 190
+    }
+</style>

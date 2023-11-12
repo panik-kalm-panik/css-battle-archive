@@ -8,12 +8,15 @@
   <summary>DAILY CHALLENGES 🎯</summary>
   </br>
     <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+        <img src="https://firebasestorage.googleapis.com/v0/b/cssbattleapp.appspot.com/o/user%2Fummd3POvEDfFyeFvVdOMG3OOrwE2%2Ftargets%2Ftarget_dpNzu3v.png?alt=media" style="width: 170px;">
+        <img src="https://firebasestorage.googleapis.com/v0/b/cssbattleapp.appspot.com/o/user%2Fummd3POvEDfFyeFvVdOMG3OOrwE2%2Ftargets%2Ftarget_Bu9zlkd.png?alt=media" style="width: 170px;">
         <img src="https://firebasestorage.googleapis.com/v0/b/cssbattleapp.appspot.com/o/user%2Fummd3POvEDfFyeFvVdOMG3OOrwE2%2Ftargets%2Ftarget_IvcRXLX.png?alt=media" style="width: 170px;">
         <img src="https://firebasestorage.googleapis.com/v0/b/cssbattleapp.appspot.com/o/user%2Fummd3POvEDfFyeFvVdOMG3OOrwE2%2Ftargets%2Ftarget_YXKr6VG.png?alt=media" style="width: 170px;">
         <img src="https://firebasestorage.googleapis.com/v0/b/cssbattleapp.appspot.com/o/user%2Fummd3POvEDfFyeFvVdOMG3OOrwE2%2Ftargets%2Ftarget_Ui0XlsW.png?alt=media" style="width: 170px;">
         <img src="https://firebasestorage.googleapis.com/v0/b/cssbattleapp.appspot.com/o/user%2Fummd3POvEDfFyeFvVdOMG3OOrwE2%2Ftargets%2Ftarget_BPkjfBE.png?alt=media" style="width: 170px;">
         <img src="https://firebasestorage.googleapis.com/v0/b/cssbattleapp.appspot.com/o/user%2Fummd3POvEDfFyeFvVdOMG3OOrwE2%2Ftargets%2Ftarget_bs99r3R.png?alt=media" style="width: 170px;">
         <img src="https://firebasestorage.googleapis.com/v0/b/cssbattleapp.appspot.com/o/user%2Fummd3POvEDfFyeFvVdOMG3OOrwE2%2Ftargets%2Ftarget_Gt1zODM.png?alt=media" style="width: 170px;">
+        <img src="https://firebasestorage.googleapis.com/v0/b/cssbattleapp.appspot.com/o/user%2Fummd3POvEDfFyeFvVdOMG3OOrwE2%2Ftargets%2Ftarget_udarzGO.png?alt=media" style="width: 170px;">
     </div>
 </details>
 
@@ -33,5 +36,19 @@
         <img src="https://cssbattle.dev/targets/10.png" style="width: 170px;">
         <img src="https://cssbattle.dev/targets/11.png" style="width: 170px;">
         <img src="https://cssbattle.dev/targets/12.png" style="width: 170px;">
+    </div>
+    <h1 style="margin-bottom: 0;">Battle #2 - Visibility</h1>
+    <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px">
+        <img src="https://cssbattle.dev/targets/13.png" style="width: 170px;">
+        <img src="https://cssbattle.dev/targets/14.png" style="width: 170px;">
+        <img src="https://cssbattle.dev/targets/15.png" style="width: 170px;">
+        <img src="https://cssbattle.dev/targets/16.png" style="width: 170px;">
+        <img src="https://cssbattle.dev/targets/17.png" style="width: 170px;">
+        <img src="https://cssbattle.dev/targets/18.png" style="width: 170px;">
+    </div>
+    <h1 style="margin-bottom: 0;">Battle #3 - Cursor</h1>
+    <div style="display: flex; flex-wrap: wrap; gap: 10px; margin-top: 10px">
+        <img src="https://cssbattle.dev/targets/19.png" style="width: 170px;">
+        <img src="https://cssbattle.dev/targets/20.png" style="width: 170px;">
     </div>
 </details>
