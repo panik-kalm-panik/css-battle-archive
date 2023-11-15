@@ -1,0 +1,41 @@
+<div><p></p><p a></p></div>
+<div a><p b></p></div>
+<div b><p></p><p a></p></div>
+
+<style>
+  body {
+    margin: 60 125;
+    display: flex;
+    background: #2C4228;
+    overflow: hidden;
+  }
+  div {
+    width: fit-content;
+    height: 240px;
+    background: #2C4228;
+    display: flex;
+    flex-direction: column;
+  }
+  div[a] {
+    background: #A6CE39;
+  }
+  div[b] {
+      transform: scaleX(-1);
+  }
+  p {
+    width: 30;
+    height: 30;
+    margin: 0;
+    background: #A6CE39;
+  }
+  p[a] {
+    margin-top: 30;
+    background: #2C4228;
+    border-left: 30px solid #A6CE39;
+    border-bottom: 30px solid #A6CE39;
+  }
+  p[b] {
+    margin-top: 30;
+    background: #2C4228;
+  }
+</style>
