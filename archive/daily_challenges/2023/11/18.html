@@ -1,0 +1,47 @@
+<div z>
+  <div a></div>
+  <div b></div>
+  <div c></div>
+  <div d></div>
+  <p></p>  
+</div>
+
+<style>
+  body {
+    margin: 50 100;
+    background: #C6DD7F;
+  }
+  div {
+    width: 200;
+    height: 200;
+    border-radius: 50%;
+    position: absolute;
+    overflow: hidden;
+    background: #486841;
+  }
+  div[a] {
+    top: -150;
+  }
+  div[b] {
+    top: 150;
+  }
+  div[c] {
+    left: 150;
+  }
+  div[d] {
+    left: -150;
+  }
+  div[z] {
+    background: none;
+  }
+  p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50;
+    height: 50;
+    margin: 0;
+    background: #486841;
+  }
+</style>
