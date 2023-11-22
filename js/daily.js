@@ -89,4 +89,9 @@ var daily_array = [
         'year': '2023',
         'file': './archive/daily_challenges/2023/11/21.html'
     },
+    {
+        'date': 'November 22th',
+        'year': '2023',
+        'file': './archive/daily_challenges/2023/11/22.html'
+    },
 ];
