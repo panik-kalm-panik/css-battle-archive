@@ -1,0 +1,44 @@
+<div a><p></p></div>
+<div b><p a></p><p b></p><p c></p></div>
+<div a><p></p></div>
+
+<style>
+  body {
+    background: #6B2222;
+    display: flex;
+    margin: 0 90;
+  }
+  div {
+    height: 300;
+  }
+  div[a] {
+    width: 50;
+  }
+  div[b] {
+    width: 120;
+    display: flex;
+    flex-direction: column;
+  }
+  p {
+    background: #F1F2F2;
+  }
+  div[a] p {
+    height: 100;
+    margin-top: 80;
+  }
+  div[b] p {
+    margin: 0 auto;
+  }
+  div[b] p[a] {
+    width: 50;
+    height: 130;
+  }
+  div[b] p[b] {
+    width: 120;
+    height: 50;
+  }
+  div[b] p[c] {
+    width: 100;
+    height: 120;
+  }
+</style>
